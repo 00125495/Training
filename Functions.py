@@ -18,6 +18,10 @@ def function_name([para]):
     docstring
     stats(s)
     return [optional] -- None
+
+function_name()
+
+print(function_name.__doc__)
 """
 def absolute_value(num):
     """ this function returns absolute

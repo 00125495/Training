@@ -1,9 +1,9 @@
 import copy
 #copy.copy(x) # shallow copy
 #copy.deepcopy(x) # deep copy
-old_list=[[1,2,3], [4,5,6], [7,8,9]]
+old_list=[[1,2,3], [4,5,6],[7,8,9],10]
 
-new_list=copy.deepcopy(old_list)
+new_list=copy.copy(old_list)
 
 old_list[1][1] ='AA'
 
